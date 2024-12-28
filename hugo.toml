@@ -4,7 +4,7 @@ languageCode = "en-us"
 theme = "hello-friend-ng"
 
 PygmentsCodeFences = true
-PygmentsStyle = "monokai"
+PygmentsStyle = "catppuccin-mocha"
 
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
@@ -87,7 +87,7 @@ disableReadOtherPosts = false
 # Per default, this option is off. 
 # The theme is respecting the prefers-color-scheme of the operating system. 
 # With this option on, the page user is able to set the scheme he wants. 
-enableThemeToggle = true
+enableThemeToggle = false 
 
 # Sharing buttons
 #
@@ -95,7 +95,7 @@ enableThemeToggle = true
 # generate the buttons here: https://sharingbuttons.io
 # and add them into your own `layouts/partials/sharing-buttons.html`
 #
-enableSharingButtons = true
+enableSharingButtons = false
 
 # Global language menu
 #
@@ -221,11 +221,11 @@ logoHomeLink = "/"
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 [[params.social]]
 name = "email"
-url = "mailto:nobody@example.com"
+url = "mailto:nitin.gatla@gmail.com"
 
 [[params.social]]
 name = "github"
-url = "https://github.com/"
+url = "https://github.com/gatlanit"
 
 [[params.social]]
 name = "linkedin"
@@ -236,14 +236,14 @@ url = "https://www.linkedin.com/"
 weight = 1
 copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 [languages.en.params]
-subtitle = "Hello Friend NG Theme"
+# subtitle = ""
 
 [menu]
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "about/"
-[[menu.main]]
-identifier = "posts"
-name = "Posts"
-url = "posts/"
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "about/"
+    [[menu.main]]
+        identifier = "posts"
+        name = "Blog"
+        url = "posts/"
