@@ -61,12 +61,12 @@ div.code-toolbar > .toolbar button:hover {
 
 /* Language label */
 div.code-toolbar > .toolbar span {
-  background: #313244;
-  color: #cdd6f4;
-  padding: 0.5em 0.8em;
-  border-radius: 0.3em;
+  background: #353535;
+  color: #cdcdcd;
+  padding: 0.3em 0.5em;
+  border-radius: 0.5em;
   font-size: 0.8em;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 /* Token styling */
@@ -84,7 +84,7 @@ div.code-toolbar > .toolbar span {
 .token.number,
 .token.constant,
 .token.symbol {
-  color: #fab387;
+  color: #3df8d9;
 }
 
 .token.selector,
@@ -113,7 +113,7 @@ div.code-toolbar > .toolbar span {
 }
 
 .token.keyword {
-  color: #cba6f7;
+  color: #f55082;
 }
 
 .token.function,
@@ -122,7 +122,7 @@ div.code-toolbar > .toolbar span {
 }
 
 .token.atrule {
-  color: #cba6f7;
+  color: #f55082;
 }
 
 .token.regex {

@@ -4,7 +4,7 @@ languageCode = "en-us"
 theme = "hello-friend-ng"
 
 PygmentsCodeFences = true
-PygmentsStyle = "catppuccin-mocha"
+PygmentsStyle = "native"
 
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
@@ -47,7 +47,7 @@ limit = 42
 posts = "/posts/:year/:month/:title/"
 
 [blackfriday]
-hrefTargetBlank = true
+hrefTargetBlank = false
 
 [taxonomies]
 tag = "tags"
@@ -58,7 +58,7 @@ series = "series"
 dateform = "Jan 2, 2006"
 dateformShort = "Jan 2"
 dateformNum = "2006-01-02"
-dateformNumTime = "2006-01-02 15:04"
+dateformNumTime = "2006-01-02"
 
 # Metadata mostly used in document's head
 # 
@@ -141,7 +141,7 @@ theme = "#1b1c1d"
 
 [params.logo]
 logoMark = ">"
-logoText = "$ cd /home/niting"
+logoText = "$ cd /home/niting/"
 logoHomeLink = "/"
 # Set true to remove the logo cursor entirely.
 # logoCursorDisabled = false
@@ -150,7 +150,7 @@ logoHomeLink = "/"
 # Set to a valid CSS time value to change the animation duration, "0s" to disable.
 # logoCursorAnimate  = "2s"
 # Append the current url pathname to logoText 
-# logoCursorPathname = true
+logoCursorPathname = true
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  
 # Addon: Startpage portrait 

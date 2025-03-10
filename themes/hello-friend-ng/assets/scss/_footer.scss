@@ -1,5 +1,5 @@
 .footer {
-  padding: 40px 20px;
+  padding: 25px 20px;
   flex-grow: 0;
   color: $light-color-secondary;
 
@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: $light-color-secondary;
 
     @media #{$media-size-tablet} {

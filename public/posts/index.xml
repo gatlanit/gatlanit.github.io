@@ -6,65 +6,153 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Fri, 27 Dec 2024 00:03:35 -0600</lastBuildDate>
+        <lastBuildDate>Sat, 04 Jan 2025 23:44:35 -0600</lastBuildDate>
         <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>Test</title>
-            <link>http://localhost:1313/posts/2024/12/test/</link>
-            <pubDate>Fri, 27 Dec 2024 00:03:35 -0600</pubDate>
+            <title>Making a CLI Tool in C</title>
+            <link>http://localhost:1313/posts/2025/01/making-a-cli-tool-in-c/</link>
+            <pubDate>Sat, 04 Jan 2025 23:44:35 -0600</pubDate>
             
-            <guid>http://localhost:1313/posts/2024/12/test/</guid>
-            <description>&lt;h1 id=&#34;title&#34;&gt;Title&lt;/h1&gt;
-&lt;h2 id=&#34;subtitle&#34;&gt;Subtitle&lt;/h2&gt;
-&lt;h3 id=&#34;list-title&#34;&gt;List title&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Bullet 1&lt;/li&gt;
-&lt;li&gt;Bullet 2
-&lt;ul&gt;
-&lt;li&gt;Sub-bullet 1&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Comment&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-C&#34; data-lang=&#34;C&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#6c7086;font-weight:bold;font-style:italic&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f38ba8&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#89b4fa&#34;&gt;main&lt;/span&gt;() {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;// Print Hello World!
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#89b4fa&#34;&gt;prinf&lt;/span&gt;(&lt;span style=&#34;color:#a6e3a1&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#cba6f7&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#fab387&#34;&gt;0&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Python&#34; data-lang=&#34;Python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;# Print Hello World!&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#89dceb&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#a6e3a1&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-            <content type="html"><![CDATA[<h1 id="title">Title</h1>
-<h2 id="subtitle">Subtitle</h2>
-<h3 id="list-title">List title</h3>
-<ul>
-<li>Bullet 1</li>
-<li>Bullet 2
-<ul>
-<li>Sub-bullet 1</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>Comment</p>
-</blockquote>
-<hr>
-<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#6c7086;font-style:italic">#include</span> <span style="color:#6c7086;font-weight:bold;font-style:italic">&lt;stdio.h&gt;</span><span style="color:#6c7086;font-style:italic">
-</span></span></span><span style="display:flex;"><span><span style="color:#6c7086;font-style:italic"></span>
-</span></span><span style="display:flex;"><span><span style="color:#f38ba8">int</span> <span style="color:#89b4fa">main</span>() {
-</span></span><span style="display:flex;"><span>  <span style="color:#6c7086;font-style:italic">// Print Hello World!
-</span></span></span><span style="display:flex;"><span><span style="color:#6c7086;font-style:italic"></span>  <span style="color:#89b4fa">prinf</span>(<span style="color:#a6e3a1">&#34;Hello World!&#34;</span>);
-</span></span><span style="display:flex;"><span>  <span style="color:#cba6f7">return</span> <span style="color:#fab387">0</span>;
+            <guid>http://localhost:1313/posts/2025/01/making-a-cli-tool-in-c/</guid>
+            <description>&lt;p&gt;I&amp;rsquo;ve always wondered how people make those commands you can type in your terminal like &lt;code&gt;git&lt;/code&gt; and &lt;code&gt;ffmpeg&lt;/code&gt;. During my Winter Break from school, I decided to practice my C skills by learning how to make one.&lt;/p&gt;
+
+    &lt;img src=&#34;http://localhost:1313/img/CommandExample.png&#34;  alt=&#34;A terminal with a binary run inside of it&#34;  class=&#34;center&#34;  style=&#34;border-radius: 3px;&#34;  /&gt;
+
+
+&lt;h2 id=&#34;how-are-terminal-commands-made&#34;&gt;How are terminal commands made?&lt;/h2&gt;
+&lt;p&gt;First, I should preface that by &amp;ldquo;commands&amp;rdquo;, I am refering to binaries located in its
+respective &lt;code&gt;$PATH&lt;/code&gt; directories in Linux and MacOS systems.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>I&rsquo;ve always wondered how people make those commands you can type in your terminal like <code>git</code> and <code>ffmpeg</code>. During my Winter Break from school, I decided to practice my C skills by learning how to make one.</p>
+
+    <img src="/img/CommandExample.png"  alt="A terminal with a binary run inside of it"  class="center"  style="border-radius: 3px;"  />
+
+
+<h2 id="how-are-terminal-commands-made">How are terminal commands made?</h2>
+<p>First, I should preface that by &ldquo;commands&rdquo;, I am refering to binaries located in its
+respective <code>$PATH</code> directories in Linux and MacOS systems.</p>
+<p>Binaries are the compiled executables
+which allow you to run programs in the terminal like a command. In the case of C, usually
+you type in ./name when want to run an executable located in your working directory.
+If the binary is located instead in the /usr/local/bin folder (or whatever the output is
+when running <code>echo $PATH</code>), then you no longer need the &lsquo;./&rsquo; and can run the binary from
+anywhere in your computer.</p>
+<h2 id="part-1---making-a-simple-c-program">Part 1 - Making a simple C program</h2>
+<p>I decided that I wanted to make <a href="https://github.com/gatlanit/Song-Starter" title="Repo for my CLI tool" target="_blank" rel="noopener">a musical parameter generator</a> for my CLI tool. Basically a musical idea generator to have base for musicians to start a song off of. I figured that having things like a set BPM, Key, Mode, and Chord Progression would make it easier for musicians to get started with a track. I wanted this tool to not just be a simple toy project but something that would actually be useful.</p>
+<h4 id="the-plan">The Plan</h4>
+<p>My plan was to start out with the easier parameters to generate before tackling randomizing the chord progression. For chord progressions, I didn&rsquo;t want to just have 4 or 8 random numbers, I wanted them to be at least somewhat musically coherent so I was going to deal with that later. For now, I got to work on randomizing BPM which was quite simple</p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#cd2828;font-weight:bold">#include</span> <span style="color:#cd2828;font-weight:bold">&lt;stdlib.h&gt;</span><span style="color:#cd2828;font-weight:bold">
+</span></span></span><span style="display:flex;"><span><span style="color:#cd2828;font-weight:bold">#include</span> <span style="color:#cd2828;font-weight:bold">&lt;time.h&gt;</span><span style="color:#cd2828;font-weight:bold">
+</span></span></span><span style="display:flex;"><span><span style="color:#cd2828;font-weight:bold"></span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">int</span> <span style="color:#447fcf">generate_bpm</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#447fcf">srand</span>(<span style="color:#447fcf">time</span>(<span style="color:#3677a9">0</span>));
+</span></span><span style="display:flex;"><span>  <span style="color:#6ab825;font-weight:bold">return</span> <span style="color:#447fcf">rand</span>() % (<span style="color:#3677a9">200</span> - <span style="color:#3677a9">75</span> + <span style="color:#3677a9">1</span>) + <span style="color:#3677a9">75</span>;
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#6c7086;font-style:italic"># Print Hello World!</span>
-</span></span><span style="display:flex;"><span><span style="color:#89dceb">print</span>(<span style="color:#a6e3a1">&#34;Hello World!&#34;</span>)
-</span></span></code></pre></div>]]></content>
+</span></span></code></pre></div><blockquote>
+<p><code>srand(time(0))</code> uses the system time as the seed for psuedo-randomization. Then, using <code>rand()</code>, modulo it with a minimum of 75 BPM and a maximum of 200 BPM. the <code>rand()</code> function comes from the  C standard library <code>stdlib.h</code></p></blockquote>
+<p>Randomizing Key and Mode is also pretty straight forward, just create an array for possible values and use <code>rand()</code> to return a string from the selected element the array</p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#cd2828;font-weight:bold">#include</span> <span style="color:#cd2828;font-weight:bold">&lt;stdlib.h&gt;</span><span style="color:#cd2828;font-weight:bold">
+</span></span></span><span style="display:flex;"><span><span style="color:#cd2828;font-weight:bold"></span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">char</span> *<span style="color:#447fcf">generate_key</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#6ab825;font-weight:bold">static</span> <span style="color:#6ab825;font-weight:bold">const</span> <span style="color:#6ab825;font-weight:bold">char</span> *keys[] = {<span style="color:#ed9d13">&#34;C&#34;</span>,  <span style="color:#ed9d13">&#34;C♯&#34;</span>, <span style="color:#ed9d13">&#34;D&#34;</span>,  <span style="color:#ed9d13">&#34;D♯&#34;</span>, <span style="color:#ed9d13">&#34;E&#34;</span>,  <span style="color:#ed9d13">&#34;F&#34;</span>,
+</span></span><span style="display:flex;"><span>                               <span style="color:#ed9d13">&#34;F♯&#34;</span>, <span style="color:#ed9d13">&#34;G&#34;</span>,  <span style="color:#ed9d13">&#34;G♯&#34;</span>, <span style="color:#ed9d13">&#34;A&#34;</span>,  <span style="color:#ed9d13">&#34;A♯&#34;</span>, <span style="color:#ed9d13">&#34;B&#34;</span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6ab825;font-weight:bold">return</span> (<span style="color:#6ab825;font-weight:bold">char</span> *)keys[<span style="color:#447fcf">rand</span>() % <span style="color:#3677a9">12</span>];
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">char</span> *<span style="color:#447fcf">generate_mode</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#6ab825;font-weight:bold">static</span> <span style="color:#6ab825;font-weight:bold">const</span> <span style="color:#6ab825;font-weight:bold">char</span> *modes[] = {<span style="color:#ed9d13">&#34;Major&#34;</span>, <span style="color:#ed9d13">&#34;Minor&#34;</span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6ab825;font-weight:bold">return</span> (<span style="color:#6ab825;font-weight:bold">char</span> *)modes[<span style="color:#447fcf">rand</span>() % <span style="color:#3677a9">2</span>];
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Now it&rsquo;s time to tackle chord progression generation. After quite a bit of trial and error, I decided I would make an 2D array of possible chords for each chord in the progression before randomizing the length (either 4 or 8 bars long). Afterwards, I would loop through the length of the chord progression, picking a chord from the modes&rsquo; respective array of possible chords. Finally appending each one and then printing it out. This was <em>by far</em> not the first thing I thought of, nor is it the best implementation, but for my purposes, it&rsquo;ll do.</p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">void</span> <span style="color:#447fcf">generate_chord_progression</span>(<span style="color:#6ab825;font-weight:bold">char</span> *mode) {
+</span></span><span style="display:flex;"><span>  <span style="color:#999;font-style:italic">// Zeros added as placeholders to fill in allocated space
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"></span>
+</span></span><span style="display:flex;"><span>  <span style="color:#999;font-style:italic">/*
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic">    Numbers 1-7 refer to each chord in a chord progression
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic">    (e.g. 1 = Tonic, 5 = Perfect 5th, etc)
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic">  */</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6ab825;font-weight:bold">int</span> majorChordChoices[<span style="color:#3677a9">8</span>][<span style="color:#3677a9">6</span>] = {{<span style="color:#3677a9">1</span>, <span style="color:#3677a9">6</span>, <span style="color:#3677a9">3</span>, <span style="color:#3677a9">1</span>, <span style="color:#3677a9">1</span>, <span style="color:#3677a9">6</span>}, {<span style="color:#3677a9">4</span>, <span style="color:#3677a9">2</span>, <span style="color:#3677a9">5</span>, <span style="color:#3677a9">7</span>, <span style="color:#3677a9">0</span>, <span style="color:#3677a9">0</span>},
+</span></span><span style="display:flex;"><span>                                 {<span style="color:#3677a9">5</span>, <span style="color:#3677a9">7</span>, <span style="color:#3677a9">4</span>, <span style="color:#3677a9">2</span>, <span style="color:#3677a9">1</span>, <span style="color:#3677a9">6</span>}, {<span style="color:#3677a9">1</span>, <span style="color:#3677a9">6</span>, <span style="color:#3677a9">5</span>, <span style="color:#3677a9">0</span>, <span style="color:#3677a9">0</span>, <span style="color:#3677a9">0</span>},
+</span></span><span style="display:flex;"><span>                                 {<span style="color:#3677a9">4</span>, <span style="color:#3677a9">2</span>, <span style="color:#3677a9">1</span>, <span style="color:#3677a9">6</span>, <span style="color:#3677a9">0</span>, <span style="color:#3677a9">0</span>}, {<span style="color:#3677a9">5</span>, <span style="color:#3677a9">7</span>, <span style="color:#3677a9">6</span>, <span style="color:#3677a9">2</span>, <span style="color:#3677a9">6</span>, <span style="color:#3677a9">0</span>},
+</span></span><span style="display:flex;"><span>                                 {<span style="color:#3677a9">5</span>, <span style="color:#3677a9">1</span>, <span style="color:#3677a9">6</span>, <span style="color:#3677a9">0</span>, <span style="color:#3677a9">0</span>, <span style="color:#3677a9">0</span>}, {<span style="color:#3677a9">1</span>, <span style="color:#3677a9">6</span>, <span style="color:#3677a9">3</span>, <span style="color:#3677a9">0</span>, <span style="color:#3677a9">0</span>, <span style="color:#3677a9">0</span>}};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6ab825;font-weight:bold">int</span> minorChordChoices[<span style="color:#3677a9">8</span>][<span style="color:#3677a9">6</span>] = {{<span style="color:#3677a9">1</span>, <span style="color:#3677a9">6</span>, <span style="color:#3677a9">3</span>, <span style="color:#3677a9">1</span>, <span style="color:#3677a9">1</span>, <span style="color:#3677a9">6</span>}, {<span style="color:#3677a9">4</span>, <span style="color:#3677a9">2</span>, <span style="color:#3677a9">5</span>, <span style="color:#3677a9">7</span>, <span style="color:#3677a9">0</span>, <span style="color:#3677a9">0</span>},
+</span></span><span style="display:flex;"><span>                                 {<span style="color:#3677a9">5</span>, <span style="color:#3677a9">7</span>, <span style="color:#3677a9">4</span>, <span style="color:#3677a9">2</span>, <span style="color:#3677a9">1</span>, <span style="color:#3677a9">6</span>}, {<span style="color:#3677a9">1</span>, <span style="color:#3677a9">6</span>, <span style="color:#3677a9">5</span>, <span style="color:#3677a9">0</span>, <span style="color:#3677a9">0</span>, <span style="color:#3677a9">0</span>},
+</span></span><span style="display:flex;"><span>                                 {<span style="color:#3677a9">4</span>, <span style="color:#3677a9">2</span>, <span style="color:#3677a9">1</span>, <span style="color:#3677a9">6</span>, <span style="color:#3677a9">0</span>, <span style="color:#3677a9">0</span>}, {<span style="color:#3677a9">5</span>, <span style="color:#3677a9">7</span>, <span style="color:#3677a9">4</span>, <span style="color:#3677a9">2</span>, <span style="color:#3677a9">6</span>, <span style="color:#3677a9">0</span>},
+</span></span><span style="display:flex;"><span>                                 {<span style="color:#3677a9">5</span>, <span style="color:#3677a9">1</span>, <span style="color:#3677a9">6</span>, <span style="color:#3677a9">0</span>, <span style="color:#3677a9">0</span>, <span style="color:#3677a9">0</span>}, {<span style="color:#3677a9">1</span>, <span style="color:#3677a9">6</span>, <span style="color:#3677a9">3</span>, <span style="color:#3677a9">0</span>, <span style="color:#3677a9">0</span>, <span style="color:#3677a9">0</span>}};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6ab825;font-weight:bold">int</span> columnSizes[<span style="color:#3677a9">8</span>] = {<span style="color:#3677a9">6</span>, <span style="color:#3677a9">4</span>, <span style="color:#3677a9">6</span>, <span style="color:#3677a9">3</span>, <span style="color:#3677a9">4</span>, <span style="color:#3677a9">5</span>, <span style="color:#3677a9">3</span>, <span style="color:#3677a9">3</span>}; <span style="color:#999;font-style:italic">// Predetermined number of columns for each row
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"></span>  <span style="color:#6ab825;font-weight:bold">int</span> progresionLengths[] = {<span style="color:#3677a9">4</span>, <span style="color:#3677a9">8</span>}; <span style="color:#999;font-style:italic">// Either 4 or 8 bars long
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"></span>  <span style="color:#6ab825;font-weight:bold">int</span> length = progresionLengths[<span style="color:#447fcf">rand</span>() % <span style="color:#3677a9">2</span>];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6ab825;font-weight:bold">int</span> chordProgression[length];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6ab825;font-weight:bold">for</span> (<span style="color:#6ab825;font-weight:bold">int</span> i = <span style="color:#3677a9">0</span>; i &lt; length; i++) {
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">if</span> (<span style="color:#447fcf">strcmp</span>(mode, <span style="color:#ed9d13">&#34;Major&#34;</span>) == <span style="color:#3677a9">0</span>) {
+</span></span><span style="display:flex;"><span>      <span style="color:#6ab825;font-weight:bold">int</span> sizeOfColumn = columnSizes[i % <span style="color:#3677a9">8</span>];
+</span></span><span style="display:flex;"><span>      <span style="color:#6ab825;font-weight:bold">int</span> randomIndex = <span style="color:#447fcf">rand</span>() % sizeOfColumn;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      chordProgression[i] = majorChordChoices[i % <span style="color:#3677a9">8</span>][randomIndex];
+</span></span><span style="display:flex;"><span>    } <span style="color:#6ab825;font-weight:bold">else</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#6ab825;font-weight:bold">int</span> sizeOfColumn = columnSizes[i % <span style="color:#3677a9">8</span>];
+</span></span><span style="display:flex;"><span>      <span style="color:#6ab825;font-weight:bold">int</span> randomIndex = <span style="color:#447fcf">rand</span>() % sizeOfColumn;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      chordProgression[i] = minorChordChoices[i % <span style="color:#3677a9">8</span>][randomIndex];
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#447fcf">printf</span>(<span style="color:#ed9d13">&#34;Chord Progression: { &#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#6ab825;font-weight:bold">for</span> (<span style="color:#6ab825;font-weight:bold">int</span> i = <span style="color:#3677a9">0</span>; i &lt; <span style="color:#6ab825;font-weight:bold">sizeof</span>(chordProgression) / <span style="color:#6ab825;font-weight:bold">sizeof</span>(chordProgression[<span style="color:#3677a9">0</span>]);
+</span></span><span style="display:flex;"><span>       i++) {
+</span></span><span style="display:flex;"><span>    <span style="color:#447fcf">printf</span>(<span style="color:#ed9d13">&#34;%d &#34;</span>, chordProgression[i]);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#447fcf">printf</span>(<span style="color:#ed9d13">&#34;}</span><span style="color:#ed9d13">\n</span><span style="color:#ed9d13">&#34;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="part-2---make-it-a-command-runnable-in-the-terminal">Part 2 - Make it a command runnable in the terminal</h2>
+<p>As mentioned previously, it works when the binary is placed one of the
+locations from <a href="https://en.wikipedia.org/wiki/PATH_%28variable%29" title="Wikipedia page for Path" target="_blank" rel="noopener"><code>$PATH</code></a>. I decided on <code>/usr/local/bin</code> since I know
+it works on both MacOS and Linux but you can pick which ever ones you want
+for your use case. Just make sure that it is a valid <code>$PATH</code> or you can
+otherwise make a directory your desired path by appending it after a
+<code>:</code> in the <code>$PATH</code> variable. Just note that if you&rsquo;re binary has
+the same name as another one, the one from the left most side of $PATH will take precedence.</p>
+<p>Now I decided to take some time to make a <a href="https://github.com/gatlanit/Song-Starter/blob/master/install.sh" target="_blank" rel="noopener">bash script</a> to automate this for me, that way it&rsquo;ll fetch the latest releases
+from my repo. Then, adding an argument and calling an update method in my program will update it to the latest version
+in my /usr/local/bin/ folder.</p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">void</span> <span style="color:#447fcf">check_updates</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#447fcf">printf</span>(<span style="color:#ed9d13">&#34;Checking for updates...</span><span style="color:#ed9d13">\n</span><span style="color:#ed9d13">&#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#6ab825;font-weight:bold">int</span> result = <span style="color:#447fcf">system</span>(<span style="color:#ed9d13">&#34;curl -sSL https://raw.githubusercontent.com/gatlanit/Song-Starter/master/install.sh | bash&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6ab825;font-weight:bold">if</span> (result == <span style="color:#3677a9">0</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#447fcf">printf</span>(<span style="color:#ed9d13">&#34;Update successful.</span><span style="color:#ed9d13">\n</span><span style="color:#ed9d13">&#34;</span>);
+</span></span><span style="display:flex;"><span>  } <span style="color:#6ab825;font-weight:bold">else</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#447fcf">printf</span>(<span style="color:#ed9d13">&#34;Update failed.</span><span style="color:#ed9d13">\n</span><span style="color:#ed9d13">&#34;</span>);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>} 
+</span></span></code></pre></div><blockquote>
+<p>Because the <a href="https://github.com/gatlanit/Song-Starter/blob/master/install.sh" target="_blank" rel="noopener">shell script</a> is located directly in my repo, a simple curl command will run the shell script and update it accordingly.</p></blockquote>
+<h2 id="part-3---packaging-and-distribution">Part 3 - Packaging and Distribution</h2>
+<p>Even though at this point it worked well enough manually uploading binaries to releases on GitHub, it gets a bit tiring having to go into a VM and make binaries for each platform
+(aarch64 and x86-64 for both MacOS and Linux). While looking up how other projects did this, I found out about <a href="https://github.com/gatlanit/Song-Starter/blob/master/.github/workflows/release.yml" target="_blank" rel="noopener">GitHub actions</a>. In a nutshell, they are automations GitHub acts on upon a specific action.</p>
+<p>To make a GitHub action, you just need to make a <code>.yml</code> file in a <code>.github/workflows</code> folder and write in there. For me I wrote it in <code>.github/workflows/release.yml</code>.
+For <a href="https://github.com/gatlanit/Song-Starter/blob/master/.github/workflows/release.yml" target="_blank" rel="noopener">my program</a>, I decided that that would be upon pushing tags to origin since I was already using Git for version control anyway.</p>
+<pre tabindex="0"><code>git tag -a vX.X.X -m &#34;Release version vX.X.X | Cool release!&#34;
+git push origin vX.X.X
+</code></pre><hr>
+<h1 id="conclusion">Conclusion</h1>
+<p>In the future I would like to add some more CLI arguments to my program and make it more customizable as to what parameters should be fixed and what shouldn&rsquo;t. But I figured musicians wouldn&rsquo;t bother to look at that anyway so I&rsquo;ll do that later. In the meantime, you can download my little program out on Linux and MacOS with a simple curl script:</p>
+<pre tabindex="0"><code>curl -sSL https://raw.githubusercontent.com/gatlanit/Song-Starter/master/install.sh | bash
+</code></pre><p>Overall, this was a fun project for me and I learned a lot about open source development.</p>
+<ul>
+<li>Basic Continuous Deployment with github actions</li>
+<li>How binaries in your /bin/ folder allow you to run them from anywhere</li>
+<li>C Programming</li>
+<li>Distribution of open source software</li>
+</ul>
+<p>I even made a <a href="https://github.com/gatlanit/Song-Starter?tab=readme-ov-file#do-you-have-writers-block-do-you-struggle-to-come-up-with-ideas-for-music-this-program-might-be-able-to-help-you-out" target="_blank" rel="noopener">track</a> in Ableton using paramaters from my program as a base!</p>
+]]></content>
         </item>
         
     </channel>

@@ -7,21 +7,21 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 27 Dec 2024 00:06:09 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jan 2025 23:44:35 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making a CLI Tool in C</title>
+      <link>http://localhost:1313/posts/2025/01/making-a-cli-tool-in-c/</link>
+      <pubDate>Sat, 04 Jan 2025 23:44:35 -0600</pubDate>
+      <guid>http://localhost:1313/posts/2025/01/making-a-cli-tool-in-c/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve always wondered how people make those commands you can type in your terminal like &lt;code&gt;git&lt;/code&gt; and &lt;code&gt;ffmpeg&lt;/code&gt;. During my Winter Break from school, I decided to practice my C skills by learning how to make one.&lt;/p&gt;&#xA;&#xA;    &lt;img src=&#34;http://localhost:1313/img/CommandExample.png&#34;  alt=&#34;A terminal with a binary run inside of it&#34;  class=&#34;center&#34;  style=&#34;border-radius: 3px;&#34;  /&gt;&#xA;&#xA;&#xA;&lt;h2 id=&#34;how-are-terminal-commands-made&#34;&gt;How are terminal commands made?&lt;/h2&gt;&#xA;&lt;p&gt;First, I should preface that by &amp;ldquo;commands&amp;rdquo;, I am refering to binaries located in its&#xA;respective &lt;code&gt;$PATH&lt;/code&gt; directories in Linux and MacOS systems.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Fri, 27 Dec 2024 00:06:09 -0600</pubDate>
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;Hi, my name is Nitin Gatla. I am a programmer and a music producer and I&amp;rsquo;m into computers! I am currently learning low level programming with C/C++&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Test</title>
-      <link>http://localhost:1313/posts/2024/12/test/</link>
-      <pubDate>Fri, 27 Dec 2024 00:03:35 -0600</pubDate>
-      <guid>http://localhost:1313/posts/2024/12/test/</guid>
-      <description>&lt;h1 id=&#34;title&#34;&gt;Title&lt;/h1&gt;&#xA;&lt;h2 id=&#34;subtitle&#34;&gt;Subtitle&lt;/h2&gt;&#xA;&lt;h3 id=&#34;list-title&#34;&gt;List title&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bullet 1&lt;/li&gt;&#xA;&lt;li&gt;Bullet 2&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sub-bullet 1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Comment&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-C&#34; data-lang=&#34;C&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#6c7086;font-weight:bold;font-style:italic&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f38ba8&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#89b4fa&#34;&gt;main&lt;/span&gt;() {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;// Print Hello World!&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#89b4fa&#34;&gt;prinf&lt;/span&gt;(&lt;span style=&#34;color:#a6e3a1&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#cba6f7&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#fab387&#34;&gt;0&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Python&#34; data-lang=&#34;Python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;# Print Hello World!&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#89dceb&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#a6e3a1&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>
